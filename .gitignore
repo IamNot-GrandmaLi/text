@@ -1,0 +1,52 @@
+# === Maven 构建输出 ===
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# === IDE 配置文件 ===
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+
+# === 日志文件 ===
+logs/
+*.log
+*.log.gz
+
+# === 操作系统生成文件 ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === 编译输出 ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === 临时文件 ===
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# === 敏感信息 ===
+.env
+application-secret.properties
+*.key
+*.pem
+*.p12
+
+# === 本地配置（可选，看是否团队共享）===
+application-local.properties
+application-dev.properties
