@@ -1,0 +1,19 @@
+server:
+  port: 9095
+
+logging:
+  level:
+    tracer: TRACE
+
+alarm:
+  messages:
+    # 消息文件存放目录，支持相对路径（相对于 jar 所在目录）和绝对路径
+    path: ./messages
+    # 每条消息发送间隔（毫秒）
+    send-interval-ms: 5000
+  kafka:
+    bootstrap-servers: localhost:9092
+    topic: alarm_message
+    # SASL 认证，默认关闭
+    sasl-enabled: false
+    sasl-jaas-config:
