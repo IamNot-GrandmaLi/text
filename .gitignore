@@ -40,6 +40,12 @@ desktop.ini
 *.swp
 *~
 
+# === 打包归档 ===
+*.zip
+
+# === 运行生成文件 ===
+app.pid
+
 # === 敏感信息 ===
 .env
 application-secret.properties
