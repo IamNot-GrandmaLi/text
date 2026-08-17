@@ -1,7 +1,7 @@
 <AlarmStart>
-id:164686
-alarm_un_id:910007408572924437218
-alarm_un_clear_id:910007408572924437218
+id:168457
+alarm_un_id:91039287417147589837
+alarm_un_clear_id:91039287417147589837
 ne_id:00001005050000011718
 ne_name:吉安/万安县/吉安市万安县枧头1楼传输机房/大光明交流智能电表
 ne_alias:吉安市万安县枧头1楼传输机房
@@ -17,7 +17,7 @@ alarm_obj_seg_status:
 location_info:吉安/万安县/吉安市万安县枧头1楼传输机房/大光明交流智能电表
 alarm_occ_time:2026-05-19 01:06:13
 alarm_clear_time:2026-05-19 01:06:13
-alarm_detection_time:2026-05-19 01:06:17
+alarm_detection_time:2026-05-19 03:06:20
 factory_alarm_type:
 factory_alarm_level:二级告警
 nms_alarm_level:2
@@ -27,8 +27,8 @@ alarm_clear_status:1
 alarm_confirm_status:0
 alarm_confirm_time:
 alarm_confirmor_name:
-alarm_title:[衍生告警]普通汇聚机房市电停电
-an_event_name:普通汇聚机房市电停电
+alarm_title:[衍生告警]普通汇聚机房市电停电达到2小时
+an_event_name:普通汇聚机房市电停电达到2小时
 alarm_standard_name:市电停电
 subject:1101
 alarm_logic_class:市电异常告警
@@ -36,14 +36,14 @@ alarm_logic_subclass:
 affect_device:无影响
 affec_business:无影响
 alarm_type:8201
-is_report_group:1
+is_report_group:0
 prov_zhname:江西省
 city_zhname:吉安地区
 county_zhname:万安县
 omc_id:36052111
 special_field1:
 room_name:吉安市万安县枧头1楼传输机房
-sub_alarm_type:交流电停电
+sub_alarm_type:动环不派单告警
 link_onu_num:
 home_client_num:
 redefine_type:
@@ -70,7 +70,7 @@ gcss_service_level:
 gcss_service_num:
 gcss_service:
 service_crossdomain_type:
-redefine_severity:
+redefine_severity:2
 business_system:
 additional_related_cm_info:
 extra_string2:
@@ -88,8 +88,8 @@ site_id:468824
 machroom_id:
 worksheet_level:二级响应
 jt_event_type:401
-event_id:361166081
-jt_event_id:WLSJ-WL-DH-04-80-0003
+event_id:1000794434
+jt_event_id:WLSJ-WL-DH-04-80-0100
 jt_event_level:四级事件
 db_event_time:
 db_clear_time:
@@ -111,9 +111,9 @@ ne_group_id:
 ems_id:
 locate_ne_type_l:
 gcss_client_level:
-receive_time:2026-05-19 01:06:18
-insert_time:2026-05-19 01:06:41
+receive_time:2026-05-19 03:06:20
+insert_time:2026-05-19 03:06:42
 month:05
 worksheet_role_id:workSheetRoleIdTest
-response_level:responseLevTest六级响应
+response_level:responseLevTest
 <AlarmEnd>

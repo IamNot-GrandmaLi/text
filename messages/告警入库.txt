@@ -1,0 +1,135 @@
+<AlarmStart>
+id:1646861
+alarm_un_id:911507408572924461113
+alarm_un_clear_id:910007408572924437218
+ne_id:00001005050000011718
+ne_name:吉安/万安县/吉安市万安县枧头1楼传输机房/大光明交流智能电表
+ne_alias:吉安市万安县枧头1楼传输机房
+ne_ip:001
+alarm_source:
+facility_type:智能电表
+factory_id:深圳力维智联
+ne_version:
+alarm_loc_obj:吉安/万安县/吉安市万安县枧头1楼传输机房/大光明交流智能电表
+alarm_loc_obj_type:智能电表
+alarm_obj_status:1300
+alarm_obj_seg_status:
+location_info:吉安/万安县/吉安市万安县枧头1楼传输机房/大光明交流智能电表
+alarm_occ_time:2026-05-19 01:06:13
+alarm_clear_time:2026-05-19 01:06:13
+alarm_detection_time:2026-05-19 01:06:17
+factory_alarm_type:
+factory_alarm_level:二级告警
+nms_alarm_level:2
+factory_alarm_id:092001
+nms_alarm_id:0500--092-10-000025
+alarm_clear_status:1
+alarm_confirm_status:0
+alarm_confirm_time:2026-05-19 01:06:13
+alarm_confirmor_name:
+alarm_title:[衍生告警]普通汇聚机房市电停电
+an_event_name:普通汇聚机房市电停电
+alarm_standard_name:市电停电
+subject:1101
+alarm_logic_class:市电异常告警
+alarm_logic_subclass:
+affect_device:无影响
+affec_business:无影响
+alarm_type:1
+is_report_group:1
+prov_zhname:江西省
+city_zhname:吉安地区
+county_zhname:万安县
+omc_id:36052111
+special_field1:
+room_name:吉安市万安县枧头1楼传输机房
+sub_alarm_type:交流电停电
+link_onu_num:
+home_client_num:
+redefine_type:
+special_field17:
+alarm_resource_status:现网状态
+special_field0:吉安/万安县/吉安市万安县枧头1楼传输机房/大光明交流智能电表
+rru_num:
+special_field6:
+network_type_top:动环
+network_type:动环
+township:枧头镇
+ne_sub_type:1101
+special_field2:
+special_field3:
+special_field4:输入市电停电
+special_field5:
+special_field7:
+special_field8:
+special_field9:
+special_field10:吉安市万安县枧头1楼传输机房
+special_field15:
+special_field16:吉安市万安县枧头1楼传输机房
+gcss_service_level:
+gcss_service_num:
+gcss_service:
+service_crossdomain_type:
+redefine_severity:
+business_system:
+additional_related_cm_info:
+extra_string2:
+extra_string1:
+business_region_ids:
+special_field12:
+outserv_reason:
+proj_name:
+proj_eoms_id:
+is_pivotal_alarm:是
+ne_uid:00001005050000011718
+zz_ne_cname:吉安市万安县枧头1楼传输机房
+site_name:吉安市万安县枧头1楼传输机房
+site_id:468824
+machroom_id:
+worksheet_level:二级响应
+jt_event_type:401
+event_id:361166081
+jt_event_id:WLSJ-WL-DH-04-80-0003
+jt_event_level:四级事件
+db_event_time:2026-05-19 01:06:13
+db_clear_time:2026-05-19 01:06:13
+locate_ne_id:00001006000000106068
+ne_type:智能电表
+site_type:
+remote_eqp_label:
+remote_ne_mark:
+tower_room:
+proj_start_time:2026-05-19 01:06:13
+proj_end_time:2026-05-19 01:06:13
+remote_object_class:
+remote_ne_id:
+remote_ne_provice:
+remote_ne_projstatus:
+remote_ne_port_name:
+remote_ne_port_id:
+ne_group_id:
+ems_id:
+locate_ne_type_l:
+gcss_client_level:
+receive_time:2026-05-19 01:06:18
+insert_time:2026-05-19 01:06:41
+month:05
+worksheet_role_id:workSheetRoleIdTest
+response_level:responseLevTest
+alarm_text:����\0��\u001d "\u0000"    \u000bN<ALARM-START><IntVersion>V1.0</IntVersion><AlarmUniqueId>1000000256004422</AlarmUniqueId><NeID>00001005050000009974</NeID><NeName>赣州/信丰县/赣州市信丰县铁石口极富
+             小学一楼综合机房/赣州市信丰县铁石口极富小学一楼综合机房</NeName><SystemName>艾默生M522S开关电源</SystemName><Cityname>信丰县</Cityname><EquipmentClass>开关电源</EquipmentClass><Vendor>深圳力维智联</Vend
+             or><Version>1.0</Version><LocateNeId>00001006000000084387</LocateNeId><LocateNeName></LocateNeName><LocateNeType>通信基站</LocateNeType><WirelessNeType>null</WirelessNeType><IrmsNeType>null</IrmsNeType>
+             <LocateNeStatus>现网有业务承载</LocateNeStatus><LocateInfo>赣州/信丰县/赣州市信丰县铁石口极富小学一楼综合机房/艾默生M522S开关电源</LocateInfo><EventTime>2026-06-23
+             21:44:09</EventTime><CancelTime></CancelTime><VendorAlarmType>006038000</VendorAlarmType><AlarmType>设备告警</AlarmType><VendorSeverity>三级告警</VendorSeverity><AlarmSeverity>3</AlarmSeverity><VendorAl
+             armId>006038</VendorAlarmId><NmsAlarmId>601-006-00-006038</NmsAlarmId><AlarmStatus>1</AlarmStatus><AlarmTitle>交流输入XX电压过低告警</AlarmTitle><ProbableCauseTxt>交流输入电压低于阈值</ProbableCauseTxt>
+             <AlarmText>地市名称：赣州县区名称：信丰县局站名称：赣州/信丰县/赣州市信丰县铁石口极富小学一楼综合机房/赣州市信丰县铁石口极富小学一楼综合机房基站号：00001005050000009974告警更新时间：2026-06-23
+             21:44:09告警值：1.000000设备类型：开关电源设备名称：艾默生M522S开关电源测点名称：006038000告警标准名：交流输入XX电压过低告警网管告警ID：601-006-00-006038告警逻辑分类：输入告警告警逻辑子类：分立开关电源
+             、组合开关电源、壁挂开关电源、嵌入开关电源该事件对设备的影响：该事件对业务的影响：工程状态：现网有业务承载厂家：深圳力维智联告警标题：交流输入XX电压过低告警厂家告警ID：006038厂家告警级别：三级告警关联标
+             识：0局站名称（综合）：赣州市信丰县铁石口极富小学一楼综合机房机房名称（综合）：赣州市信丰县铁石口极富小学一楼综合机房</AlarmText><Specialty>动环</Specialty><AlarmLogicClass>输入告警</AlarmLogicClass><Al
+             armLogicSubClass>分立开关电源、组合开关电源、壁挂开关电源、嵌入开关电源</AlarmLogicSubClass><EffectOnEquipment></EffectOnEquipment><EffectOnBusiness></EffectOnBusiness><NmsAlarmType>1</NmsAlarmType><Ala
+             rmRegion>赣州</AlarmRegion><zhandian>赣州市信丰县铁石口极富小学一楼综合机房</zhandian><jifang>赣州市信丰县铁石口极富小学一楼综合机房</jifang><AB_RoleID></AB_RoleID><ALARM-END>机房所带业务及设备情况如下
+             ：BTS：XFNX信丰铁石口极富小学ENODEB：4BXFNXTSJIFUXXA、5AXFNXTIESHIKOUHUANGGUTANGFENBU、8FXFNR信丰铁石口黄古塘(分布)-FDD-900GNODEB：C5XFNX信丰铁石口黄古塘(分布)-Z5HOLT：赣州-信丰县铁石口极富小学-OLT001-H
+             W-MA5800-X17是否上报隐患：否
+             alarm_reason:
+             receive_time:2026-06-23 21:44:15.854+08
+<AlarmEnd>
