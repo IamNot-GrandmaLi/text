@@ -36,14 +36,26 @@ text/
 
 ## 配置说明
 
-所有配置在 `src/main/resources/application.yml`：
+所有配置在 `src/main/resources/application.yml`，其中 `alarm.kafka.bootstrap-servers` 等敏感信息（内网地址、账号密码）**不直接写在仓库里**，而是通过本地环境配置目录 `env/` 覆盖：
+
+1. 复制参考模板：
+
+   ```bash
+   cp env/application.yml.example env/application.yml
+   ```
+
+2. 在 `env/application.yml` 中填入真实的 Kafka 地址（及 SASL 认证信息）。
+
+`env/application.yml` 已被 gitignore，不会提交到仓库。应用通过 `spring.config.import: optional:file:./env/` 加载它，优先级高于主配置；目录不存在也不影响启动（此时使用主配置中的安全默认值）。
+
+### 主配置默认值
 
 | 配置项 | 默认值 | 说明 |
 |---|---|---|
 | `server.port` | `9095` | 服务端口 |
 | `alarm.messages.path` | `./messages` | 消息文件目录（相对或绝对路径） |
 | `alarm.messages.send-interval-ms` | `5000` | 每条消息发送间隔（毫秒） |
-| `alarm.kafka.bootstrap-servers` | `localhost:9092` | Kafka 地址 |
+| `alarm.kafka.bootstrap-servers` | `localhost:9092` | Kafka 地址（真实地址请配置在 `env/application.yml`） |
 | `alarm.kafka.topic` | `alarm_message` | 目标 Topic |
 | `alarm.kafka.sasl-enabled` | `false` | 是否开启 SASL 认证 |
 | `alarm.kafka.sasl-jaas-config` | （空） | SASL JAAS 配置字符串 |

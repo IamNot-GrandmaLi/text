@@ -53,6 +53,9 @@ application-secret.properties
 *.pem
 *.p12
 
+# === 本地环境配置（真实值不入库，参考模板 application.yml.example 入库）===
+env/application.yml
+
 # === 本地配置（可选，看是否团队共享）===
 application-local.properties
 application-dev.properties

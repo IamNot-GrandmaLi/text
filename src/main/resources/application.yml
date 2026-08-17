@@ -1,3 +1,8 @@
+spring:
+  config:
+    # 导入本地环境配置目录（不存在时忽略），目录中 application.yml 的值优先于本文件
+    import: optional:file:./env/
+
 server:
   port: 9095
 
